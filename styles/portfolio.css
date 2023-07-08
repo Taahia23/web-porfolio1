@@ -190,7 +190,48 @@ main section {
     line-height: 28px;
     margin-bottom: 30px;
 }
-.button{
+
+.button {
     margin-top: 50px;
-   text-align: center;
+    text-align: center;
+}
+
+/* footer  style*/
+footer {
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+    margin-top: 100px;
+    text-align:left;
+}
+.section-description{
+    text-align: left;
+}
+.social-links{
+    text-align: left;
+    margin-top: 40px;
+}
+.section-title{
+    text-align: left;
+}
+.footer-column{
+    width: 50%;
+    
+}
+
+form input{
+    border: 1px solid transparent;
+    display: block;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 460px;
+    height: 25px;
+}
+form textarea{
+    border: 1px solid transparent;
+    margin-bottom: 20px;
+    width:460px ;
+    padding: 20px;
+    
 }
